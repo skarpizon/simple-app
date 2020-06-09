@@ -1,0 +1,23 @@
+.header {
+  height: $header-height !important;
+  z-index: 2000 !important;
+}
+
+.toolbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.drawer {
+  z-index: 1000 !important;
+  width: $drawer-width;
+
+  &__content {
+    margin-top: 64px !important;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}

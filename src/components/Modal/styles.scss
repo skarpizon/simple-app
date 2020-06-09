@@ -1,0 +1,21 @@
+.actions {
+  flex: 0 0 auto;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal{
+  &_container {
+    margin-top: calc(#{$header-height} + 40px) !important;  
+  }
+}
+
+.btn {
+  min-width: 120px !important;
+}
+
+.loader {
+  color: $colorPrimaryMainContrast !important;
+}

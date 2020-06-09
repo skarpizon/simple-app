@@ -1,0 +1,20 @@
+.form {
+  padding: 0 20px;
+}
+
+.group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px !important;
+  margin-left: 10px !important;
+  color: $colorPrimaryMainContrast !important;
+  background-color: $colorPrimaryMain !important;
+  &:hover {
+    background-color: $colorPrimaryDark !important;
+  }
+}

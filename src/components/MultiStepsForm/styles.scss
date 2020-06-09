@@ -1,0 +1,15 @@
+.form {
+  &_paper {
+    margin-top: 40px;
+  }
+}
+
+.toolbar {
+  button {
+    margin-left: 10px;
+  }
+}
+
+.hide {
+  opacity: 0;
+}
